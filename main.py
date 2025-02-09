@@ -1,10 +1,10 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
+# # .env 파일 로드
+# load_dotenv()
 import os
 from langchain_openai import OpenAI, ChatOpenAI
 import streamlit as st
 
-# .env 파일 로드
-load_dotenv()
 
 # OpenAI API 키 설정
 api_key = os.getenv("OPENAI_API_KEY")
